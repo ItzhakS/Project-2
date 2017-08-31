@@ -1,0 +1,87 @@
+<header>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">OOW</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+</header>
+<!-- 
+    Logo.
+
+Fix Margin-top!! fixed
+         -->
+ <div id = "home" class="container-fluid">
+     <div class ="jumbotron">
+      <h1>Only One <br>Workshops</h1>
+     <img src= "https://static.canadianmetalworking.com/import/2012/10/Seco-Square-web.jpg" class = "img-circle img-responsive align-left">
+    </div>
+</div>
+<!--
+Fix - Cover till edge of canvas (no Side margins)!!
+      The about section here.
+      Describe OOW.
+      -->
+<div id = "about"  class = "container fluid">
+  <div class = "jumbotron">
+  <h2>About</h2>
+  <p>Only One Workshops is a theoretical web/software development company.
+  </div>
+</div>
+<!--
+Thumbnails of the 
+theoretical Portfolio
+
+Fix Thumbnail positions and size!!
+(Use bootstrap's Grid)
+-->
+<div id = "portfolio" class= "container-fluid">
+  <div class = "jumbotron">
+  <h2>Portfolio</h2>
+  <div class = "container">
+  <div class = "row">
+    <div class = "col-md-6 col-s-4">
+  <img class = "img-thumbnail " src = "https://s3.amazonaws.com/production-wordpress-assets/blog/wp-content/uploads/2017/03/22112414/factory.png">
+      <div class = "caption text-centered" style = "background-color:white;">Project #4</div>
+      </div>
+    <div class = "col-md-6 col-s-4">
+    <img class = "img-thumbnail" src = "https://s3.amazonaws.com/production-wordpress-assets/blog/wp-content/uploads/2017/03/22112414/factory.png">
+      <div class = "caption text-centered" style = "background-color:white;">Project #4</div>
+      </div>
+    </div>
+  </div>
+  <div class = "container">
+    <div class = "row">
+    <div class = "col-md-6 col-s-4">
+      <img class = "img-thumbnail" src = "https://s3.amazonaws.com/production-wordpress-assets/blog/wp-content/uploads/2017/03/22112414/factory.png">
+      <div class = "caption text-centered" style = "background-color:white;">Project #4</div>
+      </div>
+    
+    <div class = "col-md-6 col-s-4">
+        <img class = "img-thumbnail" src = "https://s3.amazonaws.com/production-wordpress-assets/blog/wp-content/uploads/2017/03/22112414/factory.png">
+      <div class = "caption text-centered" style = "background-color:white;">Project #4</div>
+  </div>
+  </div>
+  </div>
+    </div>
+          </div>
+<div id = "contact" class = "container-fluid">
+  <div class = "jumbotron">
+  <h2>Contact Me</h2>
+  <div class = "row">
+    <a href="mailto:ieshachnovitz@gmail.com?Subject=Hello" target = '_blank' class = "glyphicon glyphicon-envelope col-md-4">Mail</a>
+    <a href = "https://codepen.io/Itzhak/" target = '_blank' class = "glyphicon glyphicon-pencil col-md-4">Codepen</a>
+  </div>
+    </div><br><br>
+  <footer class = "text-center">
+    <span>This page was created by <b>Itzhak Shachnovitz.</span>
+  </footer>
+    </div>
+</div>
